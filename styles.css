@@ -16,3 +16,12 @@ body{
   padding: 0;
 
 }
+
+.principal {
+  background-image: url("");
+}
+
+.container {
+  height: 100vh;
+
+}
