@@ -18,7 +18,10 @@ body{
 }
 
 .principal {
-  background-image: url("");
+  background-image: url("rs.png");
+  background-image: url("racismo.png");
+  background-repeat: no-repeat;
+  background-size: contain;
 }
 
 .container {
