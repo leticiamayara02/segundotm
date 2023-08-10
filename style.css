@@ -1,0 +1,128 @@
+:root {
+    --vermelho-principal: #DB202C;
+    --azul-secundario: #0071EB;
+    --botao-cinza: #1f1c20;
+    --cor-de-fundo: #00000080;
+    --fonte-principal: 'Inter';
+    --botao-cinza-efeito: #36253b;
+}
+
+body {
+    background-color: var(--cor-de-fundo);
+    color: var(--branco-principal);
+    font-family: var(--fonte-principal);
+    font-size: 16px;
+    font-weight: 400;
+}
+
+* {
+    margin: 0;
+    padding: 0;
+}
+
+.principal {
+    background-image: url("img/Background.png");
+    background-repeat: no-repeat;
+    align-items: center;
+    text-align: center;
+   
+}
+
+.container {
+    height: 100vh;
+    display: grid;
+    grid-template-columns: 33% 33% 33%;
+}
+
+.container__botao {
+    background-color: var(--botao-cinza);
+    border-radius: 5px;
+    padding: 1em;
+    color: var (--botao-azul);
+    display: block;
+    text-decoration: none;
+    margin-bottom: 1em;
+}
+
+.botao_secundario {
+    background-color: transparent;
+    border: 2px solid var(--botao-roxo);
+}
+
+.container__aviso {
+    font-size: 14px;
+    color: var(--vermelho-principal);
+}
+
+.container__titulo {
+    font-size: 28px;
+    font-weight: 700;
+}
+
+.container__imagem {
+    margin: 1em 0 2em 0;
+}
+
+.container__caixa {
+    margin: 0 3em;
+}
+
+.container__secundario {
+    width: 100%;
+}
+
+.secundario {
+    align-items: baseline;
+    margin: 0 6em;
+}
+
+.descricao__titulo {
+    font-weight: 700;
+    font-size: 30px;
+    margin: 0.3em;
+}
+
+.descricao__texto {
+    color: var(--preto-principal);
+}
+
+.container__descricao {
+    padding: 2em;
+}
+
+.descricao__titulo {
+    font-weight: 700;
+    font-size: 30px;
+    padding: 2em;
+    text-align: center;
+
+}
+.secundario__imagem {
+    width: 85%;
+    margin: 0 6em;
+}
+
+.rodape__logo {
+    margin: 2em;
+    text-align: center;
+    width: 30%;
+    align-items: center;
+}
+
+.lista__link {
+  font-size: 14px;
+  margin: 2em;
+}
+
+.lista__link a:hover {
+    color: var(--botao-roxo);
+}
+
+.lista__link a:active {
+    color: darkolivegreen;
+}
+
+.container__botao:hover {
+    background-color: var(--botao-cinza-efeito);
+    color: var(--cor-de-fundo);
+}
